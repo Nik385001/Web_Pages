@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="img1">
+                <img src="../images/Logo.png" height="80px" alt="your logo"
+                    style="padding-bottom: 20px ; cursor: pointer;">
+            </div>
+            <div class="nav1">
+                <input type="search" name="search" placeholder="Search Here">
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav2">
+                <ul>
+                    <li><a href="./index.html"> Home</a></li>
+                    <li><a href="./login.html">Log in</a> </li>
+                    <li><a href="./contect.html">contact Us</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Service Request Form</h1>
+        <p style="margin-left: 6.5%; padding-top: 1%;">Please help us with the following information and our customer
+            support team will
+            reach out to you to solve the issue.</p>
+            <br>
+        <form action="" method="post">
+            <h5><span> Presonal</span> details</h5>
+            <br><br><br>
+
+            <label for="name">customer Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name"><br><br>
+
+            <label for="state">state</label>
+            <select id="state" name="state">
+                <option value="" disabled="disabled" selected="selected">
+                    Select State</option>
+                <option value="26">Andaman &amp; Nicobar Islands</option>
+                <option value="1">Andhra Pradesh</option>
+                <option value="2">Arunachal Pradesh</option>
+                <option value="3">Assam</option>
+                <option value="4">Bihar</option>
+                <option value="27">Chandigarh</option>
+                <option value="33">Chattisgarh</option>
+                <option value="28">Daman &amp; Diu</option>
+                <option value="28">Daman &amp; Diu</option>
+                <option value="30">Delhi</option>
+                <option value="5">Goa</option>
+                <option value="6">Gujarat</option>
+                <option value="7">Haryana</option>
+                <option value="8">Himachal Pardesh</option>
+                <option value="9">Jammu &amp; Kashmir</option>
+                <option value="34">Jharkhand</option>
+                <option value="10">Karnataka</option>
+                <option value="11">Kerala</option>
+                <option value="31">Lakshadweep</option>
+                <option value="12">Madhya Pradesh</option>
+                <option value="13">Maharashtra</option>
+                <option value="14">Manipur</option>
+                <option value="15">Meghalaya</option>
+                <option value="16">Mizoram</option>
+                <option value="17">Nagaland</option>
+                <option value="18">Odisha</option>
+                <option value="32">Pondicherry</option>
+                <option value="19">Punjab</option>
+                <option value="20">Rajasthan</option>
+                <option value="22">Tamil Nadu</option>
+                <option value="36">Telangana</option>
+                <option value="23">Tripura</option>
+                <option value="24">Uttar Pradesh</option>
+                <option value="35">Uttarakhand</option>
+                <option value="25">West Bengal</option>
+            </select><br><br>
+
+            <label for="city">Select City</label>
+            <select id="city" name="city">
+                <option value="" disabled="disabled" selected="selected">
+                    Select City</option>
+                <option value="city">Ahmedabad</option>
+                <option value="city">Surat</option>
+                <option value="city">Vadodara</option>
+                <option value="city">Rajkot</option>
+                <option value="city">Bhavnagar</option>
+                <option value="city">Jamnagar</option>
+                <option value="city">Gandhinagar</option>
+                <option value="city">Junagadh</option>
+                <option value="city">Gandhidham</option>
+                <option value="city">Surendranagar</option>
+                <option value="city">Mehsana</option>
+                <option value="city">Bhuj</option>
+                <option value="city">Palanpur</option>
+                <option value="city">Patan</option>
+                <option value="city">Deesa</option>
+                </select><br><br>
+
+                <label for="add">Enter Your Address</label>
+                <textarea name="add" id="add" cols="20" rows="5">write here</textarea><br><br>
+
+                <label for="pin">Enter Your Pin Code</label>
+                <input type="text" name="pin" id="pin" placeholder="pin-code" maxlength="6"><br><br>
+
+                <label for="mobile"> Mobile Number</label>
+                <input type="number" name="mobile" id="mobile" placeholder="Number"><br><br>
+
+                <label for="Email">Enter Your Email</label>
+                <input type="email" placeholder="Email"><br><br><br><br>
+
+                <h5><span>product</span> information</h5><br><br>
+
+                <label for="product">Product Name</label>
+                <input type="text" name="product" id="product" placeholder="Product">
+                <br><br>
+
+                <label for="model">Product Model</label>
+                <input type="text" name="model" id="model" placeholder="Enter Model"><br><br>
+
+                <label for="problem">Your Problem </label>
+                <input type="text" name="problem" id="problem" placeholder="Your problem"><br><br>
+
+                <label for="img" style="padding-left: 11%;">Product Image</label>
+                <input type="file" name="img" id="img"><br><br>
+
+                <button type="submit">Submit</button><br><br>
+
+
+        </form>
+    </main>
+</body>
+
+</html>
